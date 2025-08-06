@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallu Martins - Lash Designer Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER/NAVEGAÇÃO -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-eye"></i>
+                <!-- ALTERE AQUI: Nome do seu negócio -->
+                <span>Mallu Martins Lash Designer</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#gallery" class="nav-link">Galeria</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#contact" class="nav-link">Contato</a>
+                <a href="#booking" class="nav-link btn-cta" data-action="booking">Agendar</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Realce sua <span class="highlight">beleza natural</span></h1>
+                <p>Extensão de cílios profissional com técnicas avançadas e produtos de alta qualidade. Desperte seu olhar mais sedutor.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" data-action="booking">
+                        <i class="fas fa-calendar-alt"></i>
+                        Agendar Agora
+                    </button>
+                    <button class="btn btn-secondary" data-scroll="#gallery">
+                        <i class="fas fa-images"></i>
+                        Ver Trabalhos
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-image">
+                        <!-- ALTERE AQUI: Substitua por sua foto profissional -->
+                        <div class="placeholder-image">
+                            <i class="fas fa-user"></i>
+                            <img src="/ChatGPT Image 12 de jun. de 2025, 22_19_50.png" alt="Mallu Martins">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <!-- ALTERE AQUI: Seu nome profissional -->
+                        <h3>Mallu Martins</h3>
+                        <p>Lash Designer Certificada</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>5.0 (150+ avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Técnicas especializadas para cada tipo de olhar</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- ALTERE AQUI: Ajuste preços e serviços conforme sua oferta -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Volume Brasileiro</h3>
+                    <img src="./fotostecnicas/vbrasileiro.jpg" alt="volume brasileiro">
+                    <p>Técnica 1:1, ideal para um look natural e elegante</p>
+                    <div class="service-price">R$ 110</div>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1h
+                    </div>
+                    <button class="btn btn-outline" data-service="Volume Brasileiro" data-price="110" data-duration="1h">
+                        Escolher
+                    </button>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="badge">Mais Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Volume Egípcio</h3>
+                    <img src="./fotostecnicas/egpc5d.avif" alt="volume egípcio">
+                    <p>Técnica 5D para um olhar mais intenso e dramático</p>
+                    <div class="service-price">R$ 135</div>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1h30min
+                    </div>
+                    <button class="btn btn-primary" data-service="Volume Egípcio" data-price="135" data-duration="1h30min">
+                        Escolher
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Capping</h3>
+                    <img src="./fotostecnicas/capping.webp" alt="capping">
+                    <p>Adição de camadas para um volume mais definido e acabamento profissional. Ideal para cílios finos ou com falhas</p>
+                    <div class="service-price">R$ 160</div>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1h30min
+                    </div>
+                    <button class="btn btn-outline" data-service="Capping" data-price="160" data-duration="1h30min">
+                        Escolher
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Volume 4D</h3>
+                    <img src="./fotostecnicas/4d.webp" alt="volume 4d">
+                    <p>Técnica com 4 fios por cílio para um volume médio, elegante e poderoso.</p>
+                    <div class="service-price">R$ 130</div>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1h30min
+                    </div>
+                    <button class="btn btn-outline" data-service="Volume 4D" data-price="130" data-duration="1h30min">
+                        Escolher
+                    </button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <h3>Manutenção</h3>
+                    <p>Retoque e preenchimento para manter o look perfeito</p>
+                    <div class="service-price">R$ 100</div>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1h
+                    </div>
+                    <button class="btn btn-outline" data-service="Manutenção" data-price="100" data-duration="1h">
+                        Escolher
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeria de Trabalhos</h2>
+                <p>Cada olhar conta uma história única</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- ALTERE AQUI: Substitua por suas fotos de trabalhos -->
+                <div class="gallery-item" data-lightbox="0">
+                    <div class="gallery-placeholder">
+                        <img src="./fotostecnicas/1.jpeg" alt="Trabalho 1">
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-lightbox="1">
+                    <div class="gallery-placeholder">
+                        <img src="./fotostecnicas/2.jpeg" alt="Trabalho 2">
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-lightbox="2">
+                    <div class="gallery-placeholder">
+                        <img src="./fotostecnicas/3.jpeg" alt="Trabalho 3">
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-lightbox="3">
+                    <div class="gallery-placeholder">
+                        <img src="./fotostecnicas/4.jpeg" alt="Trabalho 4">
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-lightbox="4">
+                    <div class="gallery-placeholder">
+                        <img src="./fotostecnicas/5.jpeg" alt="Trabalho 5">
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-lightbox="5">
+                    <div class="gallery-placeholder">
+                        <img src="./fotostecnicas/6.jpeg" alt="Trabalho 6">
+                    </div>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre a Profissional</h2>
+                    <!-- ALTERE AQUI: Sua história e qualificações -->
+                    <p>Com mais de 4 anos de experiência no mercado de beleza, sou especialista em extensão de cílios e apaixonada por realçar a beleza natural de cada cliente.</p>
+                    
+                    <div class="credentials">
+                        <div class="credential-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Certificação Internacional</h4>
+                                <p>Técnicas avançadas em volume russo e mega volume</p>
+                            </div>
+                        </div>
+                        
+                        <div class="credential-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Produtos Premium</h4>
+                                <p>Uso apenas produtos importados de alta qualidade</p>
+                            </div>
+                        </div>
+                        
+                        <div class="credential-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>500+ Clientes Satisfeitas</h4>
+                                <p>Referência em qualidade e atendimento</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-primary" data-action="booking">
+                        Agendar Consulta
+                    </button>
+                </div>
+                
+                <div class="about-image">
+                    <!-- ALTERE AQUI: Foto do seu estúdio/você trabalhando -->
+                    <div class="about-placeholder">
+                        <img src="./fotostecnicas/fotostudio.jpeg" alt="Estúdio Mallu Martins">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE AGENDAMENTO (ID booking para navegação) -->
+    <div id="booking" style="position: absolute; top: -100px;"></div>
+
+    <!-- CONTATO -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contato & Localização</h2>
+                <p>Entre em contato e tire suas dúvidas</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <!-- ALTERE AQUI: Seus dados de contato -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Endereço</h4>
+                            <p>Rua São Paulo, 123 - Sala 6<br>
+                            Jardim Guanabara, Goiânia - GO<br>
+                            CEP: 74675-740</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>WhatsApp</h4>
+                            <p>(62) 98159-9970</p>
+                            <a href="https://wa.me/5562981599970" class="btn btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                Chamar no WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sexta: 12h às 20h<br>
+                            Sábado: 8h às 16h<br>
+                            Domingo: Fechado</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Redes Sociais</h4>
+                            <p>@studiomallumartinsx</p>
+                            <a href="https://www.instagram.com/studiomallumartinsx/" class="social-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                Seguir no Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <!-- ALTERE AQUI: Embed do Google Maps com sua localização -->
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.94889772003677!2d-49.21565122934934!3d-16.61761432833795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef369b40a728d%3A0xd0d933e24577ec5d!2sAssist%C3%AAncia%20t%C3%A9cnica%20em%20ferramentas%20eletricas%20e%20pneum%C3%A1ticos!5e0!3m2!1spt-BR!2sbr!4v1754516323945!5m2!1spt-BR!2sbr" 
+                               width="100%" 
+                               height="400" 
+                               style="border:0; border-radius: 10px;" 
+                               allowfullscreen="" 
+                               loading="lazy" 
+                               referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL DE AGENDAMENTO -->
+    <div class="modal-overlay" id="booking-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Agendar Horário</h3>
+                <button class="modal-close" data-action="close-booking">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="modal-content">
+                <form id="booking-form">
+                    <div class="form-group">
+                        <label for="client-name">Nome Completo</label>
+                        <input type="text" id="client-name" name="client-name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="client-phone">WhatsApp</label>
+                        <input type="tel" id="client-phone" name="client-phone" required placeholder="(62) 99999-9999">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service-select">Serviço Desejado</label>
+                        <select id="service-select" name="service-select" required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="Volume Brasileiro - R$ 110">Volume Brasileiro - R$ 110</option>
+                            <option value="Volume Egípcio - R$ 135">Volume Egípcio - R$ 135</option>
+                            <option value="Capping - R$ 160">Capping - R$ 160</option>
+                            <option value="Volume 4D - R$ 130">Volume 4D - R$ 130</option>
+                            <option value="Manutenção - R$ 100">Manutenção - R$ 100</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preferred-date">Data Preferida</label>
+                        <input type="date" id="preferred-date" name="preferred-date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preferred-time">Horário Preferido</label>
+                        <select id="preferred-time" name="preferred-time" required>
+                            <option value="">Selecione um horário</option>
+                            <option value="09:00">09:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="16:00">16:00</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="observations">Observações (opcional)</label>
+                        <textarea id="observations" name="observations" rows="3" placeholder="Alguma observação especial?"></textarea>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button type="button" class="btn btn-secondary" data-action="close-booking">
+                            Cancelar
+                        </button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i>
+                            Enviar pelo WhatsApp
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX GALERIA -->
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox">
+            <button class="lightbox-close" data-action="close-lightbox">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="lightbox-content">
+                <div class="lightbox-image">
+                    <img id="lightbox-img" src="" alt="Imagem ampliada">
+                </div>
+            </div>
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" data-action="prev-image">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-next" data-action="next-image">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand">
+                        <i class="fas fa-eye"></i>
+                        <!-- ALTERE AQUI: Nome do negócio -->
+                        <span>Mallu Martins Lash Designer</span>
+                    </div>
+                    <p>Realçando sua beleza natural com técnicas profissionais e produtos de qualidade premium.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <a href="#services">Serviços</a>
+                    <a href="#gallery">Galeria</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#contact">Contato</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <!-- ALTERE AQUI: Seus dados -->
+                    <p><i class="fas fa-phone"></i> (62) 98159-9970</p>
+                    <p><i class="fas fa-envelope"></i> mallumartins2007@icloud.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Goiânia - GO</p>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <!-- ALTERE AQUI: Links das suas redes sociais -->
+                        <a href="https://www.instagram.com/studiomallumartinsx/" target="_blank"><i class="fab fa-instagram"></i></a>                     
+                        <a href="https://wa.me/5562981599970" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mallu Martins Lash Designer. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <div class="whatsapp-float">
+        <!-- ALTERE AQUI: Seu número do WhatsApp -->
+        <a href="https://wa.me/5562981599970?text=Olá! Gostaria de agendar um horário para extensão de cílios." target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
